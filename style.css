@@ -5,8 +5,84 @@
 }
 
 header {
-    display: flex;
-    background-color: palegreen;
-    flex-direction: column;
-    justify-content: space-between;
+    /* display: flex; */
+    background-color: black;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
 }
+
+div {
+    display: block;
+}
+
+.container {
+    /* background-color: blue; */
+    width: 60%;
+    /* margin: auto; */
+    margin-right: auto;
+    margin-left: auto;
+    /* padding: 1em; */
+}
+
+.inside-header {
+    /* background-color: aqua; */
+    display: flex;
+    width: 100%;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-right: auto;
+        margin-left: auto; */
+}
+
+#div_first_logo {
+    /* background-color: red; */
+    width: 20%;
+    color: orange;
+    font-size: 1.4em;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#logo_Top {}
+
+.div_1 {
+    padding: 1em;
+    width: 50%;
+}
+
+#div_nav {
+    /* background-color: rgb(53, 53, 42); */
+    width: 80%;
+}
+
+.first_ul {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+#li_one {
+    color: white;
+}
+
+#li_two {
+    color: orange;
+    /* margin: auto; */
+    /* padding: 10px; */
+    display: flex;
+    gap: 1em;
+}
+
+
+/* above this line i am styling on nav bar */
