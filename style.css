@@ -264,15 +264,8 @@ h3 hr{
 }
 
 
-/* .about-me-h3-div hr {
-    width: 10%;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid white;
-    margin: 1em 0;
-} */
-
 .con4{
+    margin-top: 2em;
     background-color:aqua;
 height: auto;
 }
@@ -314,7 +307,7 @@ gap: 1em;
 
 }
 .about-headings h2 {
-/* margin-top: auto; */
+
     color:orange;
     font-weight: bolder;
     font-size:1.5em ;
@@ -325,7 +318,7 @@ gap: 1em;
     color: rgb(143, 131, 131);
     font-weight: 400;
     background-color: yellow;
-    /* gap:3em; */
+
 }
 
 .ul-scnd{
@@ -333,5 +326,5 @@ gap: 1em;
     display: flex;
     flex-direction: column;
     gap: 1em;
-    /* padding: 2em; */
+
 }
