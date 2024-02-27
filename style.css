@@ -10,6 +10,7 @@ body {
 
 header {
     /* display: flex; */
+    z-index: 50;
     top: 0;
     background-color: black;
     position: fixed;
@@ -107,7 +108,7 @@ li a:hover {
     height: 5em;
 }
 
-section {
+.section1 {
     position: relative;
     background-position: center;
     background-color: black;
@@ -163,7 +164,7 @@ section {
 }
 
 .st-hero-img{
-    background-color: aqua;
+    /* background-color: aqua; */
     position: absolute;
     z-index: 5;
     height: 100%;
@@ -183,10 +184,93 @@ img{
     display: flex;
     flex-direction: row;
     gap: 2em;
-    background-color: red;
+    background-color:rgb(33, 30, 30);
+    border: 1px solid rgb(37, 39, 35);
     padding: 2em;
     width: 50%;
     border-radius:2em 0 0 2em ;    position: absolute;
     bottom: 10%;
-    left: -50%;
+    right: 100%;
+}
+
+.social-btn{
+     border: 1px solid black;
+     border-radius: 50%;
+     /* width: 30%; */
+     display: flex;
+     gap: 1em; 
+     padding: 5px;
+     overflow: hidden;
+}
+.social_icons{
+    font-size: 1.7em;
+    /* align-self: center; */
+    padding: 5px;
+}
+.social_icons_name{
+    /* max-width: 0; */
+
+}
+
+
+
+.social_links .social-btn:hover, .social-link .social-btn.active {
+    padding-right: 15px;
+}
+
+
+
+
+
+
+/* from the below line starting styling for section 2 */
+
+
+.About {
+    background-color:black;
+    height:    860px; ;
+width: 100%;}
+
+.height_main{
+    height: 10%;
+    background-color: black;
+}
+.con3{
+    /* background-color: red; */
+}
+.about-me-h3-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: wheat;
+}
+.about-me-h3-div h3 {
+    z-index: 2;
+}
+h3 hr{
+    border-color:orange;
+    background-color: grey;
+    width: 50%;
+    margin: auto;
+}
+.about-me-h3-div h1{
+    font-size: 2.5em;
+    color: rgba(128, 128, 128, 0.133);
+    position: absolute;
+    z-index:1 ;
+}
+
+
+/* .about-me-h3-div hr {
+    width: 10%;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid white;
+    margin: 1em 0;
+} */
+
+.con4{
+    background-color:aqua;
 }
