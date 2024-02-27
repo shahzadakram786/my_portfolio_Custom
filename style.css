@@ -174,10 +174,11 @@ li a:hover {
 }
 
 
-img{
+.img_1{
     object-fit: contain;
     /* background-color: rgb(101, 131, 131); */
     width: 100%;
+    filter: drop-shadow(15px 15px 15px rgb(0, 0, 0));
 }
 
 .social_links{
@@ -273,4 +274,22 @@ h3 hr{
 
 .con4{
     background-color:aqua;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+
+
+}
+.img_second{
+    width: 50%;
+}
+.img_second img{
+    width: 100%;
+    object-fit: contain;
+}
+.text-about{
+    width: 50%;
+display: flex;
 }
