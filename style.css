@@ -277,7 +277,7 @@ h3 hr {
 #con4 {
     margin-top: 2em;
     background-color: aqua;
-    /* height: 80%; */
+    height: 60vh;
 }
 
 .row {
@@ -352,4 +352,11 @@ margin-bottom: 1em;
     background-color: orange;
     padding: 10px;
     border-radius: 10px;
+}
+
+
+.sec3{
+    background-color: red;
+    width: 100%;
+    height: 80vh;
 }
