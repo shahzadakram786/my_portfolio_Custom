@@ -231,7 +231,7 @@ li a:hover {
 /* from the below line starting styling for section 2 */
 
 
-.About {
+.About , .Services{
    padding: 2rem;
     display: flex;
     align-items: center;
@@ -247,7 +247,7 @@ li a:hover {
 
 
 
-.about-me-h3-div {
+.about-me-h3-div , .Services-h3-div{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -260,20 +260,20 @@ li a:hover {
     /* background-color: red;/ */
 }
 
-.about-me-h3-div h3 {
+.about-me-h3-div h3 , .Services-h3-div h3{
     z-index: 2;
     position: absolute;
     bottom: 2px;
 }
 
 h3 hr {
-    /* border-color: orange; */
+    border-color: orange;
     /* background-color: grey; */
     width: 50%;
     margin: auto;
 }
 
-.about-me-h3-div h1 {
+.about-me-h3-div h1 , .Services-h3-div h1 {
     font-size: 6rem;
     color: rgba(128, 128, 128, 0.133);
     position: absolute;
@@ -283,7 +283,7 @@ h3 hr {
 }
 
 
-#con4 {
+#con4 , #con5{
     margin-top: 2em;
     /* background-color: aqua; */
     height: 90vh;
