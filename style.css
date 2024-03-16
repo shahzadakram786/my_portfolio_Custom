@@ -24,12 +24,15 @@ div {
 }
 
 .container {
-    /* background-color: blue; */
+    background-color: blue;
     width: 60%;
-    /* margin: auto; */
     margin-right: auto;
     margin-left: auto;
-    /* padding: 1em; */
+    /* width: 100%;
+    padding-left: 15px;
+    padding-right: 15px ;
+    margin-left: auto;
+    margin-right:auto ; */
 }
 
 .inside-header {
@@ -286,14 +289,16 @@ h3 hr {
 #con4 , #con5{
     margin-top: 3.5em;
     /* background-color: aqua; */
-    height: 80vh;
+    max-height: 80vh;
     background-color: green;
+    
+    
 }
 
 .row {
     display: flex;
     flex-direction: row;
-    position:;
+    /* position:; */
 
 
 }
@@ -309,7 +314,7 @@ h3 hr {
 
 .img_second img {
     width: 90%;
-    height: 80%;
+    /* height: 80%; */
     object-fit:contain;
     background-color: red;
  /* background-color: tran; */
@@ -322,6 +327,7 @@ h3 hr {
     display: flex;
     flex-direction: column;
     align-items: start;
+    flex-wrap: wrap;
     
     /* background-color: blue; */
     gap: 2em;
