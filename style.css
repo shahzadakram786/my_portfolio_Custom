@@ -243,7 +243,7 @@ li a:hover {
     flex-direction: column;
     background-color: black;
     /* background-color: blue; */
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
 }
 
@@ -289,7 +289,7 @@ h3 hr {
 #con4 , #con5{
     margin-top: 3.5em;
     /* background-color: aqua; */
-    max-height: 80vh;
+    /* max-height: 80vh; */
     background-color: green;
     
     
@@ -305,7 +305,7 @@ h3 hr {
 
 .img_second {
     width: 50%;
-    height: 90vh;
+    height: 80%;
     /* background-color: red; */
 
 
@@ -328,6 +328,7 @@ h3 hr {
     flex-direction: column;
     align-items: start;
     flex-wrap: wrap;
+    text-wrap: wrap;
     
     /* background-color: blue; */
     gap: 2em;
@@ -397,7 +398,7 @@ margin-bottom: 1em;
  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 2rem;
 }
 .service{
