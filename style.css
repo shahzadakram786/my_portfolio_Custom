@@ -24,7 +24,7 @@ div {
 }
 
 .container {
-    background-color: blue;
+    /* background-color: blue; */
     width: 60%;
     margin-right: auto;
     margin-left: auto;
@@ -112,10 +112,15 @@ li a:hover {
 }
 
 .section1 {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem; */
     position: relative;
-    background-position: center;
-    background-color: black;
-    height: 860px;
+    /* background-position: center; */
+    background-color: rgb(144, 56, 56);
+    /* height: 860px; */
     overflow: hidden;
 }
 
@@ -125,6 +130,7 @@ li a:hover {
     flex-direction: column;
     justify-content: center;
     background-color: rgb(56, 53, 53);
+    width: 100%;
     /* height: auto; */
     /* margin-top: 2em; */
 }
@@ -234,7 +240,7 @@ li a:hover {
 /* from the below line starting styling for section 2 */
 
 
-.About , .Services{
+section{
    padding: 2rem;
     display: flex;
     align-items: center;
@@ -354,8 +360,8 @@ margin-bottom: 1em;
 }
 
 .para-about {
-    font-size: 1em;
-    color: rgb(143, 131, 131);
+    font-size: 1.2em;
+    color: #B2B9C9;
     font-weight: 400;
     /* background-color: yellow; */
 
@@ -386,19 +392,16 @@ margin-bottom: 1em;
     height: 80vh;
 }
 
-.servic-sction{
-/* background-color: red; */
 
-
-}
 
 #con5{
     margin-top: 2rem;
     padding: 2rem 0 ;
  
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    /* max-height: 20vh; */
+    /* grid-template-rows: 1fr 1fr; */
     gap: 2rem;
 }
 .service{
@@ -407,4 +410,14 @@ margin-bottom: 1em;
     height: 30vh;
     border: 1px solid white;
     border-radius: 5px;
+}
+
+
+/* from this i am doing for skills section */
+
+
+#con6{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
 }
