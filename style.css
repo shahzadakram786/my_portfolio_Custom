@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    /* background-color: red; */
+   
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
@@ -12,7 +12,7 @@ header {
     /* display: flex; */
     z-index: 50;
     top: 0;
-    background-color: black;
+    background-color: #070D1B;
     position: fixed;
     width: 100%;
     /* flex-direction: row; */
@@ -24,7 +24,7 @@ div {
 }
 
 .container {
-    /* background-color: blue; */
+
     width: 60%;
     margin-right: auto;
     margin-left: auto;
@@ -36,7 +36,7 @@ div {
 }
 
 .inside-header {
-    /* background-color: aqua; */
+
     display: flex;
     width: 100%;
     /* justify-content: center; */
@@ -46,7 +46,7 @@ div {
 }
 
 #div_first_logo {
-    /* background-color: red; */
+ 
     width: 20%;
     color: orange;
     font-size: 1.2em;
@@ -63,7 +63,7 @@ div {
 }
 
 #div_nav {
-    /* background-color: rgb(53, 53, 42); */
+   
     width: 80%;
 }
 
@@ -118,8 +118,8 @@ li a:hover {
     flex-direction: column;
     padding: 2rem; */
     position: relative;
-    /* background-position: center; */
-    background-color: rgb(144, 56, 56);
+  
+    background-color: #070D1B;
     /* height: 860px; */
     overflow: hidden;
 }
@@ -129,7 +129,8 @@ li a:hover {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(56, 53, 53);
+    /* background-color: rgb(56, 53, 53); */
+    background-color: #070D1B;
     width: 100%;
     /* height: auto; */
     /* margin-top: 2em; */
@@ -247,7 +248,7 @@ section{
     
     justify-content: center;
     flex-direction: column;
-    background-color: black;
+    background-color:#070D1B;
     /* background-color: blue; */
     /* height: 100vh; */
     width: 100%;
@@ -296,7 +297,7 @@ h3 hr {
     margin-top: 3.5em;
     /* background-color: aqua; */
     /* max-height: 80vh; */
-    background-color: green;
+    background-color: #070D1B;
     
     
 }
@@ -322,7 +323,7 @@ h3 hr {
     width: 90%;
     /* height: 80%; */
     object-fit:contain;
-    background-color: red;
+    background-color: #070D1B;
  /* background-color: tran; */
 
 }
