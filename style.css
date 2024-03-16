@@ -433,9 +433,11 @@ margin-bottom: 1em;
     padding: 10px;
     color:#A3A7B2;
 }
-
-.circle-d:hover , .circle-d i:hover {
+/* here i will use js to color all three parts color onrange when hovering on circle */
+.circle-d:hover , .circle-d i:hover , .titels:hover {
     border-color: orange;
+    color: orange;
+     transition: all 0.5s;
 }
 
 .titels{
